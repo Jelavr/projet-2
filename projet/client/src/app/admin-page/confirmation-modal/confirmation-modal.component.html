@@ -1,0 +1,13 @@
+<div class="modal-header">
+  <h4 class="modal-title">Hey wowow!</h4>
+  <button type="button" class="close" aria-label="Close" (click)="modal.close(false)">
+    X
+  </button>
+</div>
+<div class="modal-body">
+  <p>{{confirmationName}}!</p>
+</div>
+<div class="modal-footer options">
+  <button type="button" class="btn btn-outline-dark" (click)="modal.close(true)">Oui</button>
+  <button type="button" class="btn btn-outline-dark" (click)="modal.close(false)">Non</button>
+</div>

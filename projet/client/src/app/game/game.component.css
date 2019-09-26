@@ -1,0 +1,223 @@
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: -1;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.name{
+  text-align: center;
+  font-size: 50px;
+  font-family: OCR A Std, monospace;
+  color: white;
+}
+
+#ready{
+  margin-top: 40px;
+  margin-left: 40%;
+  margin-right: 40%;
+  font-family:  OCR A Std, monospace;
+  font-size: 200%;
+  box-shadow: 1px 4px 5px 4px rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: 500;
+}
+
+#waitText {
+  font-size: 25px;
+  font-family: OCR A Std, monospace;
+  color: white;
+}
+
+.multiDiffCounter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+}
+
+#timercountdown {
+  color: white;
+  font-size: 70px;
+}
+
+#diffcounter{
+    font-size: 150%;
+    font-family:  OCR A Std, monospace;
+    margin-top: 10px;
+    bottom: 0px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    color: white;
+}
+
+.logo{
+    align-self: center;
+    width: 100%;
+    height: 100%;
+}
+
+.column {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 442px;
+    min-width: 442px;
+    max-height: 332px;
+    min-height: 332px;
+    border: solid 1px black;
+}
+
+#images{
+    text-align:center;
+    display: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: auto;
+}
+
+
+.column2 {
+    display: inline-block;
+    width: 250px;
+}
+
+.msg{
+    width: 250px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    overflow: auto;
+}
+
+.error {
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    width:40px;
+    height:40px;
+    left: 50px;
+    top: 50px;
+    display: none;
+    cursor: not-allowed;
+    color: yellow;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+body {
+  background-color: #1E272D;
+}
+
+.exit-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.leftright {
+  height: 4px;
+  width: 50px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: #F4A259;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  transition: all .3s ease-in;
+}
+
+.rightleft {
+  height: 4px;
+  width: 50px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: #F4A259;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+  transition: all .3s ease-in;
+}
+
+label {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: .6em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all .3s ease-in;
+  opacity: 0;
+}
+
+.exit {
+  margin: 60px 0 0 5px;
+  position: absolute;
+  left: -15px;
+}
+
+.exit-container:hover .leftright {
+  transform: rotate(-45deg);
+  background-color: #F25C66;
+}
+
+.exit-container:hover .rightleft {
+  transform: rotate(45deg);
+  background-color: #F25C66;
+}
+
+.exit-container:hover label {
+  opacity: 1;
+}
+
+.EndGameMsg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../assets/ezclap.gif");
+  background-size: cover;
+  border-radius: 40px;
+  justify-content: space-between;
+}
+
+.containerEndButton{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  height: auto;
+  white-space: nowrap;
+
+}
+
+h1{
+  color: black;
+}
+
+

@@ -1,0 +1,30 @@
+<app-game oncontextmenu="return false"
+    (startgame) = "onStartGame($event)"
+    (exitgame) = "onExitGame($event)"
+    [isMulti] = "isMulti" 
+    [start] = "start" >
+<div #image id = "images"> 
+    <div class = "column">
+        <img *ngIf="gameSessionID==='' || !start" src="{{loadingGif[0]}}" style='height: 100%; width: 100%; object-fit: contain' >
+        <div [ngClass]="{
+            'nodisp': !start,
+            'disp': start
+        }">
+            <div #containerOriginal  class = "render" (click)="mouseLeftClick($event)"></div>
+        </div>
+    </div>
+
+    <div class = "column" >
+        <img *ngIf="gameSessionID==='' || !start" src="{{loadingGif[1]}}" style='height: 100%; width: 100%; object-fit: contain' >
+        <div [ngClass]="{
+            'nodisp': !start,
+            'disp': start
+        }">
+            <div #containerModified  class = "render" (click)="mouseLeftClick($event)"></div>
+        </div>
+    </div>
+</div>
+<p class="cheat" *ngIf="renderService.cheatMode">MODE TRICHE</p>
+
+</app-game>
+<app-messages #msgBoxHTML></app-messages>

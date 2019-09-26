@@ -1,0 +1,48 @@
+<div *ngIf="simpleViewModalForm" >
+        <form class="simple_view_container" [formGroup]="simpleViewModalForm">
+                <span align = "right" mat-button (click)="onNoClick()" class="close">&times;</span>
+    
+            <h2>Créer un jeu de point de Vue Simple</h2>
+    
+            <mat-form-field>
+                <input matInput #input maxlength="15" placeholder="Nom du jeu" formControlName="gameName" >
+                <mat-hint align="end">{{input.value?.length || 0}}/15</mat-hint>
+                <mat-error >
+                    {{getErrorMessage("gameName", "required", "Vous devez remplir ce champ")}}
+                    {{getErrorMessage("gameName", "checkName", this.userService.getOutputServiceText())}}
+                </mat-error>
+            </mat-form-field>
+            
+            <div class="form-group">
+                    <label  class="col-md-3 control-label">Image originale</label>
+                    <div class="col-md-9">
+                        <input type='file' accept='image/bmp' (change)="originalImageChanged($event)" formControlName="originalFileName"
+                            text="Choisir un fichier">
+                    <mat-error >
+                            {{getErrorMessage("originalFileName", "required", "Vous devez remplir ce champ")}}
+                    </mat-error>
+                    </div>
+                </div>
+            
+                <div class="form-group">
+                    <label  class="col-md-3 control-label">Image modifiée</label>
+                    <div class="col-md-9">
+                        <input  type='file' accept='image/bmp' (change)="modifiedImageChanged($event)" formControlName="modifiedFileName"
+                            text="Choisir un fichier">
+                        <mat-error >
+                                {{getErrorMessage("modifiedFileName", "required", "Vous devez remplir ce champ")}}
+                        </mat-error>
+                    </div>
+                </div>
+    
+            <div class="button-alignment">
+                <button mat-raised-button (click) = "generateImageOfDifferences()">Soumettre</button>
+                <button mat-raised-button (click) = "onNoClick()">Annuler</button>
+    
+            </div>
+        </form>
+    </div>
+      
+    
+
+

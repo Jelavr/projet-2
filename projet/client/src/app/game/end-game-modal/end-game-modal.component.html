@@ -1,0 +1,18 @@
+<div class="pyro" *ngIf = "wingame">
+    <div class="before"></div>
+    <div class="after"></div>
+</div>  
+<div class="modal-header">
+    <h2 *ngIf = "wingame" class="modal-title">Félicitations!</h2>
+    <h2 *ngIf = "!wingame && wingame !== undefined" class="modal-title">Vous n'excellez pas...</h2>
+    <h2 *ngIf = "wingame === undefined" class="modal-title">Oops! Votre adversaire semble avoir quitté la partie</h2>
+  </div>
+<div class = "ImgContainer">
+  <img src = {{srcImg}} class = "Img">
+</div>
+  
+<div class = "modal-footer option">
+    <button class="buttons" *ngIf = "!wingame && wingame !== undefined" (click)= "modal.close(true)">Rejouer</button>
+    <button class="buttons" (click)= "modal.close(false)">Retour</button>
+</div>
+  

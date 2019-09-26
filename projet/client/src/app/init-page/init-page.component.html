@@ -1,0 +1,10 @@
+<div class = "initPage">
+    <h1 class = "gameName">EZCLAPS</h1>
+    <img class = "logo" src = {{srcLogo}} />
+    <div class = "username">
+        <input  id = "usernameInput" [(ngModel)] = "nameInput" (keyup.enter)="requestCreateUser()" placeholder = "Nom de joueur" type= "string">
+        <button class = "buttons" (click)="requestCreateUser()"> Connexion </button>
+        <p class = "outputText" [innerHTML]= "outputText"></p>
+
+    </div>
+</div>

@@ -1,0 +1,34 @@
+<div id="bg">
+  <img src="../../assets/bg2.jpg" alt="">
+</div>
+<button mat-raised-button (click) = "toAdmin()">Vers Admin</button>
+<div class="gameList">
+  <h1 class="namegame">EZCLAPS</h1>
+</div>
+
+<div class = "containerall">
+    <div class = "split left">
+        <div class="viewStyle">SIMPLE (2D)</div>
+        <div class = "appCard" *ngFor = "let Card_ of simpleCards" >
+          <app-card class = "innerCard"
+              [card]="Card_"
+              (jouer)="clickJouer($event)"
+              (creer)="clickCreer($event)"
+              (join)="clickJoin($event)"></app-card>
+        </div>
+    </div>
+
+    <div class = "split right">
+        <div class="viewStyle">Libre (3D)</div>
+        <div class = "appCard" *ngFor = "let Card_ of freeCards" >
+          <app-card class = "innerCard"
+              [card]="Card_"
+              (jouer)="clickJouer($event)"
+              (creer)="clickCreer($event)"
+              (join)="clickJoin($event)"></app-card>
+        </div>
+    </div>
+</div>
+
+<app-loading-page *ngIf = "loading"></app-loading-page>
+

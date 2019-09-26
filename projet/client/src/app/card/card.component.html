@@ -1,0 +1,56 @@
+<div class = "Card">
+    <div class = "gameTitle"> {{card.name}}  </div>
+      <div style="display: flex; flex-direction: row;">
+        <img class = "logo" src ="{{card.logo}}" />
+        <div style="display: flex; flex-direction: column;">
+          <div class = "infoContainer">
+            <div class = "highscore">Meilleurs Temps</div>
+            <div style="display: flex; flex-direction: row;">
+                <div style="display: flex; flex-direction: column; width: 110px; border-right: 2px black solid;">
+                    <div class = "typeGame">Solo</div>
+                    <div class="score">
+                      <div class = "player" style="padding-left: 12px;">JOUEUR </div>
+                      <div class = "time" style="padding-left: 70px;" >TEMPS</div>
+                    </div>
+                    <div class="score">
+                      <div class = "player">1. {{card.solo[0].name}} </div>
+                      <div class = "time">{{card.solo[0].time.minutes}}:{{formatNumber(card.solo[0].time.seconds)}}</div>
+                    </div>
+                    <div class="score">
+                      <div class = "player">2. {{card.solo[1].name}} </div>
+                      <div class = "time">{{card.solo[1].time.minutes}}:{{formatNumber(card.solo[1].time.seconds)}}</div>
+                    </div>
+                    <div class="score">
+                      <div class = "player">3. {{card.solo[2].name}} </div>
+                      <div class = "time">{{card.solo[2].time.minutes}}:{{formatNumber(card.solo[2].time.seconds)}}</div>
+                    </div>
+                </div>
+                <div style="display: flex; flex-direction: column; width: 110px;">
+                  <div class = "typeGame">Multi</div>
+                  <div class="score">
+                    <div class = "player" style="padding-left: 12px;">JOUEUR </div>
+                    <div class = "time" style="padding-left: 70px;" >TEMPS</div>
+                  </div>
+                  <div class="score">
+                    <div class = "player">1. {{card.PVP[0].name}} </div>
+                    <div class = "time">{{card.PVP[0].time.minutes}}:{{formatNumber(card.PVP[0].time.seconds)}}</div>
+                  </div>
+                  <div class="score">
+                    <div class = "player">2. {{card.PVP[1].name}} </div>
+                    <div class = "time">{{card.PVP[1].time.minutes}}:{{formatNumber(card.PVP[1].time.seconds)}}</div>
+                  </div>
+                  <div class="score">
+                    <div class = "player">3. {{card.PVP[2].name}} </div>
+                    <div class = "time">{{card.PVP[2].time.minutes}}:{{formatNumber(card.PVP[2].time.seconds)}}</div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class = "buttonszone">
+            <button id="jouerButton" (click)="clickJouer()"> {{button1}} </button>
+            <button *ngIf="!card.joining" id="creerButton" (click)="clickCreer()">{{button2}}</button>
+            <button *ngIf="card.joining" id="joinButton" (click)="clickJoin()">{{button3}}</button>
+          </div>
+        </div>
+      </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+</div>

@@ -1,0 +1,44 @@
+<div id="bg">
+    <img src="../../assets/bg2.jpg" alt="">
+  </div>
+<button mat-raised-button (click)="toSelection()">Vers Selection</button>
+
+<div class="gameList">
+
+    <h1 class="namegame">EZCLAPS</h1>
+    <div  class = "topOption">
+        <button class="buttons" mat-raised-button (click)="openSimpleView()">Nouveau jeu simple</button>
+        <button class="buttons" mat-raised-button (click)="openFreeView()">Nouveau jeu libre</button>
+    </div>
+
+    <div class="containerall">
+        <div class="split left">
+            <div class="viewStyle">SIMPLE (2D)</div>
+            <div class="appCard" *ngFor="let Card_ of simpleCards">
+                <app-card class="innerCard"
+                    [card]="Card_" 
+                    [button1] = "'Supprimer'"
+                    [button2] = "'Réinitialiser'"
+                    (jouer)="askToDeleteGame($event)"
+                    (creer)="askToResetGame($event)"></app-card>
+            </div>
+        </div>
+    
+        <div class="split right">
+            <div class="viewStyle">Libre (3D)</div>
+            <div class="appCard" *ngFor="let Card_ of freeCards">
+                <app-card class="innerCard"
+                    [card]="Card_" 
+                    [button1] = "'Supprimer'"
+                    [button2] = "'Réinitialiser'"
+                    (jouer)="askToDeleteGame($event)"
+                    (creer)="askToResetGame($event)" ></app-card>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<app-loading-page *ngIf = "loading"></app-loading-page>
+
+    

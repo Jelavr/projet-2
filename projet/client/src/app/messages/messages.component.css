@@ -1,0 +1,80 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    z-index: 1;
+}
+
+.header{
+    display: flex;
+    height: 40px;
+    width: 425px;
+    color: cyan;
+    font-size: 25px;
+    background-color: black;
+    position: absolute;
+    bottom: 150px;
+    padding-left: 5px;
+    border-radius: 0px 50px 0px 0px;
+    font-family: Iceland;
+    border-top: solid white 5px;
+}
+  
+.msgBOX{
+    width: 425px;
+    height: 140px;;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse; 
+    bottom: 10px;
+    left: 0;
+    position: fixed;
+    background-color: black;
+    justify-self: center;
+    border-radius: 0px 0px 50px 0px;
+    border-bottom: solid white 5px;
+}
+
+/* total width */
+.msgBOX::-webkit-scrollbar {
+    width:10px;
+}
+
+.msgBOX::-webkit-scrollbar-thumb {
+    background-color:#babac0;
+    border-radius:16px;
+}
+.msgBOX::-webkit-scrollbar-thumb:hover {
+    background-color:#a0a0a5;
+}
+
+.msgBOX::-webkit-scrollbar-button {display:none}
+
+
+
+.msg{
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10px;
+}
+
+.msg .differenceFound{
+    color: rgb(0, 255, 0);
+}
+
+.msg .identificationError{
+    color: rgb(255, 0, 0);
+}
+
+.msg .bestTime{
+    color: yellow;
+}
+
+.msg .connexion{
+    color: lightblue;
+}
+
+.msg .deconnexion{
+    color: rgb(0, 255, 200);
+}

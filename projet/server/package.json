@@ -1,0 +1,109 @@
+{
+  "name": "server",
+  "description": "Projet de base pour le cours de LOG2990",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "start": "tsc && concurrently --kill-others \"tsc -w \" \"nodemon out/server/app/www.js\" ",
+    "lint": "tslint --project tsconfig.json \"./app/**/*.ts\" --format stylish",
+    "test": "tsc && concurrently --kill-others mocha",
+    "coverage": "nyc mocha",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "clean": "rimraf out node_modules",
+    "postinstall": "rimraf false"
+  },
+  "nyc": {
+    "check-coverage": true,
+    "per-file": true,
+    "include": [
+      "app/services/**/*.ts",
+      "app/controllers/**/*.ts",
+      "app/game-generation/**/*.ts",
+      "app/gameSession/**/*.ts"
+    ],
+    "extension": [
+      ".ts"
+    ],
+    "exclude": [
+      "**/*.spec.ts",
+      "app/services/customServiceErrors/*.ts",
+      "app/game-generation/game.ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ],
+    "reporter": [
+      "html",
+      "text"
+    ],
+    "all": true,
+    "cache": true,
+    "sourceMap": true,
+    "instrument": true
+  },
+  "dependencies": {
+    "@types/chai-http": "^3.0.5",
+    "@types/chai-spies": "^1.0.0",
+    "@types/jquery": "^3.3.29",
+    "@types/mongoose": "^5.3.15",
+    "@types/multer": "^1.3.7",
+    "@types/socket.io-client": "^1.4.32",
+    "@types/supertest": "^2.0.7",
+    "@types/three": "^0.93.18",
+    "axios": "^0.18.0",
+    "axios-mock-adapter": "^1.16.0",
+    "body-parser": "^1.18.3",
+    "chai-http": "^4.2.1",
+    "chai-spies": "^1.0.0",
+    "cookie-parser": "1.4.1",
+    "cors": "2.8.4",
+    "debug": "^4.1.1",
+    "express": "~4.16.0",
+    "gitinspector": "^0.5.0-dev-2",
+    "howler": "^2.1.1",
+    "http-client": "^4.3.1",
+    "httpclient": "^0.1.0",
+    "inversify": "^4.13.0",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.11",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "node": "^11.8.0",
+    "nodemon": "^1.18.9",
+    "reflect-metadata": "^0.1.13",
+    "serve-favicon": "~2.5.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "three": "^0.100.0",
+    "ts-node": "^7.0.1",
+    "typegoose": "^5.6.0",
+    "web-request": "^1.0.7",
+    "yarn": "^1.13.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "1.17.0",
+    "@types/chai": "~4.1.4",
+    "@types/cookie-parser": "1.4.1",
+    "@types/cors": "2.8.4",
+    "@types/express": "4.16.0",
+    "@types/express-serve-static-core": "4.16.0",
+    "@types/mocha": "^5.2.5",
+    "@types/morgan": "~1.7.35",
+    "@types/node": "^10.12.20",
+    "@types/node-uuid": "0.0.28",
+    "@types/sinon": "^7.0.3",
+    "@types/socket.io": "1.4.38",
+    "chai": "~4.1.0",
+    "concurrently": "^4.0.1",
+    "mocha": "^5.2.0",
+    "nyc": "^13.3.0",
+    "rimraf": "2.6.2",
+    "sinon": "^7.2.2",
+    "supertest": "^3.4.2",
+    "tslint": "~5.11.0",
+    "tslint-eslint-rules": "5.4.0",
+    "tslint-microsoft-contrib": "5.2.0",
+    "typescript": "~3.1.0"
+  }
+}

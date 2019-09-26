@@ -1,0 +1,21 @@
+<app-game
+    (startgame) = "onStartGame($event)"
+    (exitgame) = "onExitGame($event)"
+    [isMulti] = "isMulti"
+    [start] = "start" >
+
+<div #image id = "images"> 
+    <div class = "column">
+        <img *ngIf="!start" src="{{loadingGif[0]}}" style='height: 100%; width: 100%; object-fit: contain' >
+        <img class = "logo" *ngIf = "start" src = "{{srcOriginalImage}}"
+         (click)="coordinates($event)" />
+    </div>
+    <div class = "column" >
+        <img *ngIf="!start" src="{{loadingGif[1]}}" style='height: 100%; width: 100%; object-fit: contain' >
+        <img class = "logo"  *ngIf = "start" src = "{{srcModifiedImage}}" 
+        (click)="coordinates($event)" />    
+    </div>
+</div>
+
+</app-game>
+<app-messages #msgBoxHTML></app-messages>

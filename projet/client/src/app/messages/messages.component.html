@@ -1,0 +1,11 @@
+<link href='https://fonts.googleapis.com/css?family=Iceland|Monoton' rel='stylesheet' type='text/css'>
+<div class="box">
+  <div class = "header">MESSAGES DE JEU</div>
+  <div class = "msgBOX">
+    <div class = "msg" *ngFor = "let msg_ of msgBox">
+        <div >
+          <p [innerHtml] = "msg_.text" [className] = "msg_.classCSS" ></p>
+        </div>
+    </div>
+  </div>
+</div>

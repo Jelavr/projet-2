@@ -1,0 +1,2073 @@
+commit d7b3b8385837080530742e8a950387ab5a99570d
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    AF (T) final tests
+
+ 4 files changed, 71 insertions(+), 81 deletions(-)
+
+commit 4a19eaff581b674d74b37aad037a91e12403e5ab
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    AF (T) final test verfications
+
+ 3 files changed, 7 insertions(+), 3 deletions(-)
+
+commit f90c7da7561408d1a4f12c8806fd2792ba6f9b7c
+Merge: 75144b1 9b694be
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    Merge branch 'integration1'
+
+commit 9b694be15fd879cdeccafc8b767c47316214d081
+Merge: 00cb514 f05318c
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    Merge branch 'integration1' of https://githost.gi.polymtl.ca/git/log2990-100 into integration1
+
+commit 00cb514ff234c2f742adaf4e0666395f86730a40
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    AF (R) should be in last commit
+
+ 1 file changed, 1 insertion(+)
+
+commit 2bba4cfa659382e47b00e7b82eafb8dcbf330ca3
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    AF (D) Nav and admin nav now sticky
+
+ 4 files changed, 18 insertions(+), 17 deletions(-)
+
+commit 75144b18dd60937612b80603e68ada9d506c80d1
+Merge: bd43dfd f05318c
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    Merge branch 'integration1'
+
+commit f05318c4aa20a1a2e96bce96b4b858d0c7479340
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-03
+
+    CB (R): TS-Linted
+
+ 2 files changed, 3 insertions(+), 5 deletions(-)
+
+commit 4d77646655f08d8024ddac5233b696604d1ff7b3
+Merge: 30a056d 69b28fd
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    Merge remote-tracking branch 'origin/integration1' into integration1
+
+commit 30a056d413ae08cd62e85b94b5a6aad69c44e6fb
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (R) lint passe dans client
+
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+
+commit 69b28fd7c0403e5b55d2915f6587865126a321ae
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-03
+
+    LL (R)(B): Delete game works
+
+ 2 files changed, 6 insertions(+), 5 deletions(-)
+
+commit 5b1e9bc454934baaf164a67501535847101f37d1
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-03
+
+    LL (B): fixed
+
+ 1 file changed, 5 deletions(-)
+
+commit f56c97e0064e1c2f3435c825c55fa87c4b594dfb
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-03
+
+    LL (B): Accepted commit
+
+ 1 file changed, 5 insertions(+)
+
+commit 2b68bb9c8f636117472b63b7ae8a61fbcf65a378
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-02-03
+
+    CB (R): Deleted some lines
+
+ 1 file changed, 1 deletion(-)
+
+commit f7aa41c93c013abc463aece8d18e22a2807eed6e
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-02-03
+
+    CB (D)(R): requests for deletion and reset score of admin
+
+ 4 files changed, 25 insertions(+), 8 deletions(-)
+
+commit 7792d8820ec7f49f0da8a4ac420d3066db74fe3f
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-02-03
+
+    CB(R): Redirection to login page when Users is clicked
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d53bcaf7f9519de65a06c8fdf0f76dc1d7f7f4ca
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-02-03
+
+    CB (D): Added button changed when in admin mode
+
+ 6 files changed, 12 insertions(+), 7 deletions(-)
+
+commit 2a0df0d48a007ba141e2405f01847a77c72d9710
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (R) lint passe sur serveur
+
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+commit 2cb8a5140f4c84c0ba2f851c74679e87078de089
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (R) delete empty file
+
+ 1 file changed, 69 deletions(-)
+
+commit 366e8e9e57538f5f5cf1121227daead2f0e6d1f6
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (T) test coverage
+
+ 1 file changed, 10 insertions(+)
+
+commit 714db51794cc026f4522b492ffbc67fd97626e12
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (B) write to file now creates unexisting necessary directories
+
+ 1 file changed, 8 insertions(+)
+
+commit 20934ac9ff4746edb1db3562727751006eaf17a6
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    AF (R) removed conflic
+
+ 1 file changed, 5 deletions(-)
+
+commit 9a28f145493f23d0a4764e730520e65d12c5278e
+Merge: b3ebeb5 690cfe2
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    Merge branch 'integration1' of https://githost.gi.polymtl.ca/git/log2990-100 into integration1
+
+commit b3ebeb581546dbe3b0a99f9d20fdd62a3ffcab86
+Merge: 42f69ab e0a86bd
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    AF (R) Errors are properly mapped and displayed
+
+commit 690cfe2305f0fdb5aa831c9162fb5413c62bed1e
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    LL (D) generate mock time on reset
+
+ 3 files changed, 6 insertions(+), 4 deletions(-)
+
+commit 5f9f10e33422989f2188b8d801c0dd353846fb57
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (R) meilleur temps plus long
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit e4fdbb0c49fdb5d342ef95882a82d79079b31012
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-03
+
+    LL (R): Fixed typing error
+
+ 1 file changed, 5 insertions(+)
+
+commit 082564b71a8a5762dc0a2070f08a72ce504df4d3
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (B) reglage bug mock time
+
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 30ce3b04f7babcf5816872c4e2555bd18edfc65b
+Merge: e7cbb7f ea7b83a
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    Merge remote-tracking branch 'origin/integration1' into integration1
+
+commit e7cbb7f28686de0e20a1c46537f094b247c5b0e7
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (T) add difference url for compiling
+
+ 1 file changed, 1 insertion(+)
+
+commit ea7b83afabdbfb75c4ce1280fca86635efeff20b
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-03
+
+    LL (B): Modified function for it to return an updated view of the game instead of the old one
+
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit 9602327823af8df118ec2c065a19ef3132e815ee
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (R) delete useless file
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit a939f08679f09ffbd5f25525763d1394470215af
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (T) test on game service
+
+ 2 files changed, 85 insertions(+), 8 deletions(-)
+
+commit f766c51b1c7bd8e9b5f25fa9cfc9e7e60dcec6fd
+Merge: 59614a7 771667b
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    Merge remote-tracking branch 'origin/integration1' into integration1
+
+commit 771667bf3351838ba5aad74894a85f718b827ed1
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-03
+
+    LL (D): Modified reset times route to take title as parameter instead of id
+
+ 5 files changed, 8 insertions(+), 8 deletions(-)
+
+commit 59614a7922512d24271f4f8c51a1afe213a6eb3c
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (R) change bmp file names
+
+ 7 files changed, 14 insertions(+), 13 deletions(-)
+
+commit a03e47ae90915eb962bf7889fb9473fa8c21322f
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-03
+
+    LL (D): Implemented game deletion route
+
+ 4 files changed, 10 insertions(+), 5 deletions(-)
+
+commit 42f69ab0df2105190464bc538460b45df8dd1c8a
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    AF (R) Should be in last commit
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit a9eda2ed0c243f2371ed5af0d96370f0ceb703ed
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    AF (R) client set up for window close
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit e0a86bd6a7631b2d6d209b1250b2299a67148777
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-03
+
+    LL (D): Modified deletion api call
+
+ 5 files changed, 12 insertions(+), 13 deletions(-)
+
+commit db44b9ed3bf5ab59a214010d5fc7c600a914d3ce
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (T) remove for test coverage
+
+ 1 file changed, 3 deletions(-)
+
+commit eff2160c4f0f7e6d8f1583b821777b8b6a8a395e
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-03
+
+    LL (B): Fixed typing error
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit ba18192e9ba1bdfa416d8a8a108b8ca111a66e06
+Merge: 86fcf5d 6c366f6
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    Merge remote-tracking branch 'origin/integration1' into integration1
+
+commit 86fcf5de1b1fd9fd2ebc369dba1579afb7e2631e
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (T) test sur game driver
+
+ 2 files changed, 104 insertions(+), 1 deletion(-)
+
+commit 7d24fc86e0280507a73587705f2a50d48f304d51
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (T) test avec 7 diff
+
+ 3 files changed, 11 insertions(+)
+
+commit 6c366f6e81a2b58a8a87394760aeaf8da6cb6a75
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    AF (D) User login connects properly with database
+
+ 2 files changed, 13 insertions(+), 2 deletions(-)
+
+commit 54b07576caff12558fbbceafe18290985432af33
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    AF (R) refactor
+
+ 4 files changed, 6 insertions(+), 93 deletions(-)
+
+commit 6c298f5405e84c1eef401f7b4afdcc3b504a173e
+Merge: 12a5322 6d2e583
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    Merge branch 'integration1' of https://githost.gi.polymtl.ca/git/log2990-100 into integration1
+
+commit 6d2e5838683b09c8b7e7cf8aa4f229fd0673d217
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-03
+
+    LL (B): Debugged time generation
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 12a53222bb8c72d75d4db88baff905394d4a8d22
+Merge: 8feae3c ea0953e
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    Merge branch 'integration1' of https://githost.gi.polymtl.ca/git/log2990-100 into integration1
+
+commit 8feae3cc74335a703ead4635b64fe946584dc75f
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    AF (R) reconnected the http services to the the refactored http services
+
+ 4 files changed, 16 insertions(+), 55 deletions(-)
+
+commit 19383fca9d175108a90b6d429de6b690c4112ec5
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    AF (R) refactored all the httpservices to their own folder
+
+ 4 files changed, 86 insertions(+)
+
+commit ea0953ec3ebbb8d04c5959f410f83e799d855650
+Merge: 4a9de9f 36c23cd
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    Merge branch 'testImaging' into integration1
+
+commit 36c23cd0f4dc733a9a89db3bcca1f516c369b647
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    Fb (R) problem solved
+
+ 2 files changed, 49 insertions(+), 48 deletions(-)
+
+commit 4a9de9faf227828a26d4fad78231791a4c6dc35b
+Merge: c2c8589 ffd1851
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    AF (R) merge
+
+commit c2c8589304e1caf58f69c8389f99e3333475fd7c
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    AF (D) Shouldve added on last commit
+
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+
+commit ff9b1f79eb3de8853ed8e1ba3c51bde95cb735e3
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    AF (D) Integration et debug tu game creation service frontend - bitconnect
+
+ 5 files changed, 31 insertions(+), 21 deletions(-)
+
+commit ffd1851bce3ada2be46b612d90e2f3a9a0d67018
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-03
+
+    LL (D): Implemented time reset route
+
+ 4 files changed, 14 insertions(+)
+
+commit 7b2c4a7f96a124e0e19119fffb75b2b56c116ae1
+Merge: e188935 6c75f7c
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-02-03
+
+    Merge remote-tracking branch 'origin/testImaging' into testImaging
+
+commit e188935461de32b110cc3b5ea5f84a560da5bc58
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-02-03
+
+    JG (R) : creation class countDiff
+
+ 2 files changed, 73 insertions(+), 50 deletions(-)
+
+commit 6c75f7c5aeec97278172b1cf4567291576e7f856
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (T) tests pour faire planter count differences
+
+ 3 files changed, 22 insertions(+)
+
+commit 47763e24dc4f3e397462ee4bbf81a525e47f6fc3
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (B) count differences maintenant bon
+
+ 3 files changed, 40 insertions(+), 35 deletions(-)
+
+commit c8fe112ec858e1de8f288b3cb1f93efb0342c521
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-03
+
+    LL (R): Typed error
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 74d9e75529e30d55cea78da33560aeeaf7f900ce
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-03
+
+    LL (B): Removed a debug statement
+
+ 1 file changed, 1 deletion(-)
+
+commit f004195247dd6f225199e90542595e3c137f36a6
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    AF (R) Registration component no longer exists, signin logic in app component
+
+ 12 files changed, 137 insertions(+), 156 deletions(-)
+
+commit 1528bf04c6060057b7526af09d6cb81142e881c3
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-03
+
+    LL (B): Work on integrating client and server
+
+ 7 files changed, 166 insertions(+), 419 deletions(-)
+
+commit 8a1a4bf811d947ce32b82471a4acc91ad61c92da
+Merge: 114a9cf e281a0d
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-03
+
+    Merged initialView to adminApi
+
+commit ec5a8ac5284c7651a529419ad22e52ad14e69427
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (T) faire planter countDiff
+
+ 2 files changed, 16 insertions(+)
+
+commit e281a0d90307166727eaabe3480c32b015328ff5
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-02-03
+
+    CB (R): Changed from mock-card-games to server request
+
+ 4 files changed, 8 insertions(+), 21 deletions(-)
+
+commit 9dc3cad2446c48c0c9efa3144db612f12915b2c6
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (T) change constants in bmp test
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 114a9cfb67ea7627888d4c6fdd9e26a5fd6de95b
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (B) second changes on mock times
+
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+commit 0f36a5c90bc6d805b5a2ba2e42091bd3797a5806
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-03
+
+    FB (B) correction mock times
+
+ 1 file changed, 6 insertions(+), 8 deletions(-)
+
+commit 464d04192bf5fca15845e9094ff901e7f7c6523a
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-03
+
+    AF (R) updated admin view with the game list
+
+ 8 files changed, 26 insertions(+), 14 deletions(-)
+
+commit a6b48f5236177de89ee5b32a3d55bfe00179d00d
+Merge: 3a1ba65 1701ccc
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-02
+
+    AF (R) Fixed merge changes from initialView into admin View:
+
+commit 1701cccc3062d83b4619c8a5bf1d02e4708229f7
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-02
+
+    AF (R) Fixed linting erros
+
+ 8 files changed, 69 insertions(+), 55 deletions(-)
+
+commit 3a1ba651eea32d577eed73143f351289b9e2996b
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-02
+
+    AF (D) Dimensions shoul've been added to last commit
+
+ 1 file changed, 15 insertions(+)
+
+commit 2c92c5f2731002f4c230da94d597c4c3b6441183
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-02
+
+    AF (T) Tests for the bmp file validation
+
+ 8 files changed, 156 insertions(+), 62 deletions(-)
+
+commit eeb5d97506cd201526d99f0888a0cdd60cc42383
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-02
+
+    AF (D) Fixing liniting errors
+
+ 3 files changed, 7 insertions(+), 29 deletions(-)
+
+commit c560fe0bfce0df147a1e05e74ced882eabe71c0f
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-02
+
+    AF (R) Fixing linting erros
+
+ 5 files changed, 19 insertions(+), 58 deletions(-)
+
+commit 93f76c50f584e3edc2b7e3db1cd6aff70de22eec
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-02
+
+    AF (R) Moved input validation to its own service
+
+ 2 files changed, 37 insertions(+)
+
+commit 5b4b4bd2b73fcde05317a90e08b6479db18c07c3
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-02
+
+    AF (R) fixing linting erros
+
+ 3 files changed, 5 insertions(+), 5 deletions(-)
+
+commit cf1fc91a47a50815ae7040dc80de13a269124bb8
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-02
+
+    FB (D) mock times vraiment random
+
+ 1 file changed, 22 insertions(+), 9 deletions(-)
+
+commit ec0fc0fc391bceb9763d570043c4f0e5dfcd946c
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-02
+
+    FB (R) delete file for no error
+
+ 1 file changed, 1 insertion(+)
+
+commit 7620987379f3e4750886b8b1ead0e699f7322e46
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-02
+
+    FB (T) put some size barriers for writing buffer
+
+ 2 files changed, 29 insertions(+), 13 deletions(-)
+
+commit cd9406ecfdacebea82a09883ff36a0a4afcb0c0d
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-02
+
+    FB (R) change constant name
+
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+
+commit a572a89bef85904b4b877aafbba80fc2dbb373f9
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-02
+
+    FB (T) delete files exported from tests
+
+ 4 files changed, 30 insertions(+), 14 deletions(-)
+
+commit eed9c5d783c8a3e6260640356c9a03760b64dda7
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-02
+
+    FB (T) test avec mauvais width
+
+ 2 files changed, 13 insertions(+), 5 deletions(-)
+
+commit 0bf0f63df47d5c401438e039af7b2a0e98eef2f2
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-02
+
+    LL (D): Added validation of the 7 required differences in images
+
+ 2 files changed, 30 insertions(+), 10 deletions(-)
+
+commit 2835c9dbafefec35d9226897bb345f479153db41
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-02
+
+    LL (B): Reglages serveur par rapport au service d'images
+
+ 2 files changed, 5 insertions(+), 4 deletions(-)
+
+commit ad0d5c6049d9ac093d46a4d37e2f7db150240fc7
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-02
+
+    FB (T) test sur import pour avoir une erreur
+
+ 3 files changed, 15 insertions(+), 2 deletions(-)
+
+commit 75335964f0c3482ddd423a554941532e100d3972
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-02-02
+
+    FB (R) placer les images de test dans un fichier a part
+
+ 4 files changed, 2 insertions(+), 3 deletions(-)
+
+commit 1c3fa344c0a2d20f9ff608393846cc082e18d171
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-01
+
+    LL CB (B): Fixed difference counting
+
+ 2 files changed, 42 insertions(+), 19 deletions(-)
+
+commit 9b7e29e2580ad0d565845c96f46e7a87cebfe135
+Merge: fb8cfe4 b92ffd6
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-01
+
+    Merge branch 'imaging' into adminApi
+
+commit b92ffd62fbde7aa80f8a908f0189a7db04bd6399
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-01
+
+    JG (T): Tests on difference service
+
+ 3 files changed, 35 insertions(+), 7 deletions(-)
+
+commit fb8cfe42b2a1f0b7209abb36ad42660a34ec0d21
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-02-01
+
+    LL (D): Integration of the image differentiation service
+
+ 6 files changed, 64 insertions(+), 13 deletions(-)
+
+commit ba079c646867103f5f194ccf3bfa03ebdf757383
+Merge: 543ec72 e9f3003
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-02-01
+
+    CB LL (D): Merged cardGamesList into initialView
+
+commit e9f30039128e69f52aefd1cefe1a5fec858a65df
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-02-01
+
+    CB (T)(D): Fixed weird bug so test works
+
+ 10 files changed, 83 insertions(+), 44 deletions(-)
+
+commit a11e241ee1adde34d312be14dfa80f7f23029792
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-02-01
+
+    CB (D): Align scores to the right
+
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit 2f54ac810d02858f9ca7d3928208148bc70d196c
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-01
+
+    AF (D) Game Creation Http service created, requires testing
+
+ 2 files changed, 42 insertions(+)
+
+commit e00a7a73f84c7996528aa4d907a813e4e50f7148
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-01
+
+    AF (D) File checker service created for the new-simple-game element, requires tests
+
+ 3 files changed, 58 insertions(+)
+
+commit 8da8735c6ed0791e95b91842fa882826a8e5bc35
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-02-01
+
+    AF (D) Game Creation Form Component created
+
+ 4 files changed, 121 insertions(+)
+
+commit 824b617100e57d0eb5e89a6337e2b2a36f78551b
+Merge: 283c2a8 3cf024d
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-01-31
+
+    LL (D): Merge imaging into adminAPI
+
+commit 3cf024d1b4f39ad06f024352e6b2683dc1d216dc
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-01-31
+
+    LL (R): Renamed pixels.ts to DifferenceData.ts
+
+ 2 files changed, 7 insertions(+), 7 deletions(-)
+
+commit d86739c4b8c2819a048fc818a235715d8a21cf6f
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-01-31
+
+    LL (R): Removed test artifact from repo and renamed delta to pixelEnlargementArray
+
+ 4 files changed, 17 insertions(+), 17 deletions(-)
+
+commit c89cd880fe75e144d7e787dda79724dbc1018c0c
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-01-31
+
+    LL (R) Reformulated tests and fixed typos
+
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit fe6169bc323a9734c7e549ed8ca1ee1e714d52fe
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-31
+
+    FB (R) refactor in imaging
+
+ 3 files changed, 4 insertions(+), 5 deletions(-)
+
+commit 303e3606516720be05cfac7426753596bedcdba0
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-31
+
+    FB (T) Change on test to work with new methods
+
+ 2 files changed, 13 insertions(+), 15 deletions(-)
+
+commit eae74ba6222245cdf1bf90176ded9a8a22f23f9d
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-01-31
+
+    LL FB (R): WIP Code review
+
+ 10 files changed, 79 insertions(+), 86 deletions(-)
+
+commit 4091c57d37c10ae1de905792716a5d4182076322
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-31
+
+    Revert "JG (R) : ajout methode export ImgDiff"
+    
+    This reverts commit c5c2e870e9138688b5476105ed1b3af5587c6ac8.
+
+commit d5848f8469ea7f32fc266621a048f79483f86461
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-31
+
+    JG (R) : refactoring des classes de imaging
+
+ 6 files changed, 184 insertions(+), 191 deletions(-)
+
+commit 283c2a82a4edf1a93e59348185c3000413c387a1
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-01-31
+
+    LL (D): Proper routes and DB integration for /games/
+
+ 7 files changed, 45 insertions(+), 32 deletions(-)
+
+commit 891309152e49be75e8fa05d4b47b5da9f5362787
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-01-31
+
+    LL (D): Boilerplate work for admin api
+
+ 10 files changed, 162 insertions(+), 1 deletion(-)
+
+commit 8488629b326ce3dec4f472b859b07f26d77e60d3
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-31
+
+    CB (D): Removed useless lines
+
+ 2 files changed, 2 insertions(+), 9 deletions(-)
+
+commit d5361d9ffa1739f4f3319b9c60fddf7cd8e7d0b1
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-31
+
+    FB JG (R) Dylan est passé
+
+ 3 files changed, 25 insertions(+), 21 deletions(-)
+
+commit 3327a9edfa56756096889ac0ea4e6121f8d25829
+Merge: ac7a3ad 2cd034f
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-31
+
+    Merge branch 'imagingTest' into imaging
+
+commit 2cd034f32a1b307f459ff21447f1b1ece62f8951
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-31
+
+    FB (R) refactoring pour tslint
+
+ 2 files changed, 26 insertions(+), 20 deletions(-)
+
+commit cd66f5bddafa9731b762f3db0c8425e11eadc5fb
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-31
+
+    FB (R) petit ménage dans imaging
+
+ 2 files changed, 16 insertions(+), 83 deletions(-)
+
+commit 47cf3f16c7eb34f3e9d59d0e938aedbe7104ce1f
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-31
+
+    FB (D) getbase64 pour echange avec le serveur
+
+ 3 files changed, 53 insertions(+), 34 deletions(-)
+
+commit 4be30160b62a1e560b06c258ed201f888595b385
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-31
+
+    CB (R): Deleted uncessary methods
+
+ 1 file changed, 1 insertion(+), 8 deletions(-)
+
+commit 48bcc8d7cc5e1066ea95eb2bef6af858e3e81910
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-31
+
+    CB (R): Deleted unecessary tests
+
+ 1 file changed, 23 deletions(-)
+
+commit c6911aa8a9832cd314485af020a9374852d8c97a
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-31
+
+    CB (R): Deleted method that was not necessary
+
+ 1 file changed, 1 insertion(+), 16 deletions(-)
+
+commit ef43b89230f8f3025a726dc12861ff5835b83611
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-31
+
+    FB (R) ménage dans le service de génération d'images de diff
+
+ 6 files changed, 83 insertions(+), 198 deletions(-)
+
+commit 98dd1e63e00acf7bfc8fabf7e15b480992134cd4
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-31
+
+    CB (R): Deleted unecessary classes
+
+ 2 files changed, 39 deletions(-)
+
+commit 27e40ba660ab21683409b78045ed0f6b8adc5c13
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-31
+
+    CB (T): Removed useless class
+
+ 3 files changed, 6 insertions(+), 8 deletions(-)
+
+commit a73f878d8ecf7119ab91856f5f8ce0f787ff7f73
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-31
+
+    CB (D): Added disabled button
+
+ 2 files changed, 8 insertions(+), 7 deletions(-)
+
+commit 7ab14d2b4577dff8c9c59e04ada3826579bff45d
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-31
+
+    CB (D): Updated view of CardGamesList
+
+ 5 files changed, 26 insertions(+), 3 deletions(-)
+
+commit ac7a3ade7bac303bf05a99057a787ac2a9f95536
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-30
+
+    JG (T) : ajout de differences sur les fichiers bmp
+
+ 3 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 67779b178b3a55343acb3f5c772c27e2ddd75b8c
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-30
+
+    JG (D) : compter les différences marche
+
+ 4 files changed, 9 insertions(+), 23 deletions(-)
+
+commit a94c0d338b29a4a270292edbc43ea45e4df3c647
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-30
+
+    JG (D) : essaie compter les differences
+
+ 5 files changed, 50 insertions(+), 2 deletions(-)
+
+commit f9a3f5ca63fb1a537c7530835c1691a66ce3516b
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-30
+
+    JG (R) : creation fnct readFile
+
+ 3 files changed, 14 insertions(+), 19 deletions(-)
+
+commit a498547fdc4d2d3fb78a794c27cde9adad6dc1dd
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-30
+
+    JG (R) : cleaning de la classe data.ts
+
+ 1 file changed, 14 insertions(+), 11 deletions(-)
+
+commit b3cd8e3f096e87188b86c1ed9799dca73008d4f7
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-30
+
+    JG (T) : creer une image de difference enregistrer en .bmp
+
+ 3 files changed, 9 insertions(+), 13 deletions(-)
+
+commit 55c26b35e4fbc4dba56ec4e9adabf89d7d27b952
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-30
+
+    CB (D): Sort time leaderboards
+
+ 2 files changed, 16 insertions(+), 4 deletions(-)
+
+commit 5b27225ad35a8300b0d80e3e7fe066a07249d823
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-30
+
+    CB (R): Converted my classes to interfaces from common
+
+ 7 files changed, 91 insertions(+), 37 deletions(-)
+
+commit b4497db7ca8e62a3c4fd8eea5ac72384985be32c
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-30
+
+    CB LL (D): Added interfaces in common
+
+ 2 files changed, 21 insertions(+)
+
+commit c4dd07e9f43d077e378d37eb8c51c9ffbf40d812
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-30
+
+    CB (D): Finalized the view for the cardGamesList
+
+ 10 files changed, 88 insertions(+), 60 deletions(-)
+
+commit 762f46ae94d99476ae795ee3ca51551bd7542ed6
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-30
+
+    CB (R): Changed the logo app
+
+ 5 files changed, 25 insertions(+), 6 deletions(-)
+
+commit aab73586ba9c8d3f82d6ad0748df1bee784489cc
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-29
+
+    CB (D): Added arrays for the two perspectives
+
+ 2 files changed, 10 insertions(+), 9 deletions(-)
+
+commit 5d1703fb8a8deb1309f7cfcb2aa3d915fe93e0cf
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-29
+
+    CB (D): Updated view of card games list
+
+ 8 files changed, 74 insertions(+), 30 deletions(-)
+
+commit 1ffdeade819401e8b72d51c04e8f827f2f12d7e8
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-29
+
+    FB (B) Import export bitmap fonctionnel
+
+ 3 files changed, 10 insertions(+), 15 deletions(-)
+
+commit 820a854ec1d1c014e9db1006d3520a7de529009d
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-29
+
+    CB(D): Did more HTML/CSS stuff on cardgameslist
+
+ 6 files changed, 30 insertions(+), 11 deletions(-)
+
+commit 5a6d9d83ff6ac6a305a61c2cdfb05aef02671955
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-29
+
+    CB (D): Did some HTTP/CSS
+
+ 2 files changed, 11 insertions(+), 4 deletions(-)
+
+commit 8eb45e93b4e494acd3ea3a4562320b7bd767245a
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-29
+
+    CB (D): Imported MatGridList for card games list
+
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit 3dd2c1ef9ff1f8862151677e17ef9ec5fcbc860a
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-29
+
+    CB (D): Imported MatCard for card games and implemented it
+
+ 5 files changed, 26 insertions(+), 8 deletions(-)
+
+commit c66b1d54ecfb1c0517f2e7ae2b42aadc915dd796
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (D): Display of list is working but very ugly :')
+
+ 3 files changed, 6 insertions(+), 5 deletions(-)
+
+commit e08eae84af6b4b309c950d39c211ff29d165a1e0
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (R): Removed unecessary code
+
+ 3 files changed, 12 insertions(+), 12 deletions(-)
+
+commit e52fa2065be63f67f7b5de28370fe51d6e24e407
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (R): Commented some lines to test card games list view
+
+ 3 files changed, 5 insertions(+), 5 deletions(-)
+
+commit be3e226cda95e9dbd5306c1e494df2c9c121b030
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-28
+
+    FB (B) Debug export
+
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+commit 4c5fd081b3e7c9db7856a48988ac63c2070180f1
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (D): Method for when click on CardGame, it displays its info
+
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+
+commit 474802b0b70e35683f61578eed524fdde3f89da8
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (D): Import mock data to simulate server
+
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+
+commit a73c68cfe542ef2794df0374d209eeb1eb4088d5
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (R): *Fixed* TSLint errors
+
+ 3 files changed, 7 insertions(+), 7 deletions(-)
+
+commit 1935766d91f71d67d8537e647d936194ffa22741
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (R): Fixed weird display with router-outlet
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit ef011e48703349f46388aa5d291044c95851e907
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-28
+
+    FB JG (B) debug sur import export bitmap
+
+ 3 files changed, 12 insertions(+), 12 deletions(-)
+
+commit f7d4b5030dc888a13388a4d3fab964c5eaf64157
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (D): Created a method that uses mock data to simulate server and display card games list
+
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+commit 7ff2e86621074c2249d0d1bc7c65c21f60dd149a
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (R): Fixed display of card game list
+
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit f829b70b5fdaee9f54400eed963b8a9af54bd309
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (T): Test for creating a cardGame
+
+ 1 file changed, 45 insertions(+), 5 deletions(-)
+
+commit 815c4922435bedd1bae802b137e5d6cf11923895
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (D): Create a card game
+
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+commit 65cda61e7d33a0c60cf77f42fba1e627af6bb077
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-28
+
+    FB JG (D) export bitmap
+
+ 4 files changed, 7 insertions(+), 6 deletions(-)
+
+commit 4911ef1861a0280fcdb86b6855d15d9d579f2cb2
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-28
+
+    JG (D) : adaptation des méthodes selon ce qui s'est dit en classe
+    
+    Enlevé certains paramètres inutiles
+
+ 2 files changed, 8 insertions(+), 4 deletions(-)
+
+commit f312d6ae45041d6c1991037021bc4191fdd34a86
+Merge: 18e231e da4d89c
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-28
+
+    JG (D) : Merge remote-tracking branch 'origin/master' into imaging
+
+commit 47aefc3dd1412eeb106d26241bb243f68d13e504
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (D): Display of the card game
+
+ 2 files changed, 28 insertions(+), 7 deletions(-)
+
+commit 196077e13561aca895323261ca256c8c53c0df26
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (D): Method to get card game by name
+
+ 1 file changed, 4 insertions(+)
+
+commit f34f09d66ba66cfcb5ed59c93673c6b0b7f7ca5c
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (D): Fixed minor TSLint errors
+
+ 2 files changed, 11 insertions(+), 12 deletions(-)
+
+commit d8ac3e58c7c1fcfe237551e56de74998d907b4a1
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (R): Updated card games list with new CardGame class
+
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+
+commit 56159bd187c1e87fe07320b90390ab43e79f3d63
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (D): Created mock data for tests
+
+ 1 file changed, 17 insertions(+)
+
+commit 511bb194c3a790b6755be9836498d7a0c00934df
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (D): Modified card game class
+
+ 1 file changed, 19 insertions(+), 1 deletion(-)
+
+commit 55b5b0006e8062645e224d09ab54f9984a6fd958
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (D): Created a class for user
+
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+
+commit a1fe0ecec611921a1d5858f89fe2731be9e744d9
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (D): Created a class for a card game
+
+ 1 file changed, 8 insertions(+)
+
+commit 5ed428ceb1d2147d8406f6404cec814da926f4c9
+Author: Camille <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (D): Added routing to a card game from list of card games
+
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 19236faf5fc1d0ea084c31c051bb69e2abfde670
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (R): Fixed minor TSLint errors
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit b99dfc29159703396044f0e43a28ee46f47454fd
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (D): Generated component for a card game
+
+ 5 files changed, 45 insertions(+)
+
+commit cce20908bcdbb5fe42c19562c4556931a4d65e87
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (D): Started to display names of the card games
+
+ 2 files changed, 14 insertions(+), 6 deletions(-)
+
+commit 1129b0dc82434fd66c62877b08f1e6b283335a7c
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-28
+
+    CB (R): Changed name and type of variable
+
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+
+commit 4aac90ac05c992388206c7e7a9eb2ddb53713913
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-01-27
+
+    AF (D) Creation of the admin view
+
+ 6 files changed, 64 insertions(+), 11 deletions(-)
+
+commit b0eab03b5fa1142cf196a38c2113a9e72c64795d
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-01-27
+
+    AF (D) Changed the header for a propert navbar
+
+ 7 files changed, 94 insertions(+), 34 deletions(-)
+
+commit 543ec726aac2b60daa56c8411a97a08da12539f9
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-01-27
+
+    AF (D) Router no longer appears on page, initialbranch is ready to be reviewed for merge into master
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit ab73e6953f0ff8ba60e5d1347becfcaa36fef376
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-01-27
+
+    LL (B): Set up dependancies and reinstated package-lock
+
+ 2 files changed, 6188 insertions(+), 1 deletion(-)
+
+commit a205c3dfce417ed2fa04d035d4294bf04b5e9d2e
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-26
+
+    CB (D): Created method that get data on card games list
+
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+commit b6c645fc8d7317d9dff0b179d9295e15ab37e7dd
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-26
+
+    CB (D): Generated card-games service
+
+ 2 files changed, 21 insertions(+)
+
+commit ef7c06b7eda78867028d0cfe31dc6b4b3238e653
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-26
+
+    CB (D): Added route to card games list component
+
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+commit 302af67bc1d1a982ff9c451a254a9fe435df003a
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-26
+
+    CB (D): Generated card-games list component
+
+ 5 files changed, 47 insertions(+), 1 deletion(-)
+
+commit 18e231e02dfa857c6b7dc9a2e0142cffac9ae57e
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-25
+
+    JG (D) : export bmp, mais le resultat n'est pas l'image originale
+
+ 7 files changed, 49 insertions(+), 7 deletions(-)
+
+commit a7834de127f7d6c5f911f0eda5b1e4ccb0e67370
+Merge: 0081d77 e3bfac0
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-25
+
+    JG (D) Merge remote-tracking branch 'origin/imaging' into imaging
+
+commit 0081d77506724a54cc79a03813cf2ca2abf0046a
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-25
+
+    JG (D) : encode to a base64
+
+ 8 files changed, 232 insertions(+), 315 deletions(-)
+
+commit e3bfac06b831a35f3fa05ae5f2b8c7895e796442
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-25
+
+    FB (R) revision types
+
+ 2 files changed, 6 insertions(+), 6 deletions(-)
+
+commit f681a32d63c38a8c1e232590ba1a4f5518d67cad
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-25
+
+    JG (D) : essaie decode bmp
+
+ 2 files changed, 23 insertions(+), 9 deletions(-)
+
+commit f14d18854cbaff8e5145d331e0f8a6accbdceb5f
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-25
+
+    JG (T) : tests adapte au nouveau bitmap.ts
+
+ 4 files changed, 11 insertions(+), 7 deletions(-)
+
+commit 9a81f6465bdfa47c359349f3e363afbac70069cc
+Merge: ced101f fd4c5e8
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-25
+
+    JG (D) : Merge remote-tracking branch 'origin/imaging' into imaging
+
+commit ced101f5e921bfbbef17f4415f1fb8a95e34a114
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-25
+
+    JG (D) : decode bmp
+
+ 5 files changed, 6311 insertions(+), 67 deletions(-)
+
+commit b11bce9a2b37509575f163caa67306a4d5162afd
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-24
+
+    CB (T): Fixed the test AppComponent should create the app
+
+ 4 files changed, 7 insertions(+), 18 deletions(-)
+
+commit 08df04d4a9eec99c8cb6b0eb5d6978a1d30f2f03
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-24
+
+    CB (D): Input with Angular Material works
+
+ 2 files changed, 5 insertions(+), 14 deletions(-)
+
+commit a0954bc35a2db55db4ec9549ed8133b86ef099a5
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-24
+
+     CB (R): Fixed TSLint errors in error component
+
+ 2 files changed, 11 insertions(+), 11 deletions(-)
+
+commit fd4c5e8e879228086d4edab6480906cb08c6f5a4
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-24
+
+    FB (D) agrandissement d'un pixel de difference
+    
+    plus beau avec fonction de generation d'un array
+
+ 5 files changed, 38 insertions(+), 65 deletions(-)
+
+commit da4d89ca959c2982a17891db2d30e3ba23487430
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-01-24
+
+    AF D Bug fix, abstract class needs to be injectable
+
+ 1 file changed, 3 insertions(+)
+
+commit afc29481fec7af82bc27920badd1c19126fc4cff
+Merge: 3f95c8d f7612ef
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-24
+
+    Merge branch 'initialView' of https://githost.gi.polymtl.ca/git/log2990-100 into initialView
+
+commit 3f95c8df29beaed3564aae38594409ee4d1c85b5
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-24
+
+    CB (D): Input display changed from HTML/CSS to Angular Material components
+
+ 5 files changed, 50 insertions(+), 17 deletions(-)
+
+commit f7612efe41377a4941455aed732b1fe480c4ee11
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-01-24
+
+    HttpRequest is live and functional
+
+ 3 files changed, 101 insertions(+), 2 deletions(-)
+
+commit 3ff10ca7eb95eb4a8eed99dcfcaf0d98dc5c32a6
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-24
+
+    JG (T) : petit ajout sur les tests
+    
+    Ajout de titres pour bien separer les differentes composantes dans les tests
+
+ 4 files changed, 94 insertions(+), 97 deletions(-)
+
+commit 4ba52c2fcfa70664af988e7a711555fc1ac0f07e
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-23
+
+    FB (D) elargissement des pixels differents
+    
+    il manque a faire plus de tests pour verifier que la fonction marche bien
+
+ 4 files changed, 30 insertions(+), 22 deletions(-)
+
+commit 38ee458b386babba15fa10f73eeab375fe764ff8
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-23
+
+    FB (T) problemes d'optimisation des tests regle
+
+ 4 files changed, 62 insertions(+), 23 deletions(-)
+
+commit 44745582aa7ce355ca28c7c8607fa8889edc3bec
+Merge: 3f3c879 e78a34b
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-01-23
+
+    Merge branch 'initialView' of https://githost.gi.polymtl.ca/git/log2990-100 into initialView
+
+commit 3f3c879adaf866f58bc4d81b7bc7b0c251cd9951
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-01-23
+
+    AF D Router is functional, Error page has been added for route coverage
+
+ 7 files changed, 64 insertions(+), 5 deletions(-)
+
+commit 780b747604ec9a8bcd1ae11200cb3aa09287832c
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-01-23
+
+    AF D REGEXP Validator checks the username for symbols, tested
+
+ 2 files changed, 6 insertions(+), 5 deletions(-)
+
+commit e78a34b689655f2a3c78d15c596611757c4569bc
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-23
+
+    CB (R): Fixed an error from test of Angular Material
+
+ 1 file changed, 1 deletion(-)
+
+commit cf008cbeca75ef85940b52f31111b7481c37e67f
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-23
+
+     CB (D): Tested Angular Material Form works
+
+ 4 files changed, 11 insertions(+), 1 deletion(-)
+
+commit b7bb30db7e342f23a63689b6e5e51f064ecdc47a
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-23
+
+     CB (D): Added Angular Material
+
+ 3 files changed, 7 insertions(+), 1 deletion(-)
+
+commit d9bbc73466a09a1d71becf1711f400762075a2f9
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-01-23
+
+    AF R FIN du lint pour le angular
+
+ 7 files changed, 24 insertions(+), 24 deletions(-)
+
+commit 7fc01598b70241644f91a8377d5809d8643a0e3c
+Merge: 81bd173 b21f91c
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-01-23
+
+    Merge branch 'initialView' of https://githost.gi.polymtl.ca/git/log2990-100 into initialView
+
+commit 81bd1737600be802914e9f9b8fce6af7a4a7ceee
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-01-23
+
+    AF R Tslinting of Angular Registration component
+
+ 2 files changed, 76 insertions(+), 69 deletions(-)
+
+commit b21f91c0dce084d8ad6b1cc6efe530c8bf9d29ef
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-23
+
+    CB (R) : Fixed TSLint errors in app folder
+
+ 6 files changed, 30 insertions(+), 38 deletions(-)
+
+commit eeb0d8a31df48ddb502e2ac76fc01f01c4f5641a
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-23
+
+    CB (D): Changed the font-family
+
+ 2 files changed, 6 insertions(+)
+
+commit b2d4815912ab265d0f497970e6174199c5018011
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-23
+
+    CB (D): Changed the app logo
+
+ 3 files changed, 2 insertions(+), 2 deletions(-)
+
+commit cc5e4976055c7af6be411a8d4c764ab0544e09e0
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-01-23
+
+    LL CB (D): Made input field react to invalid input
+
+ 3 files changed, 16 insertions(+), 3 deletions(-)
+
+commit 704799679c669958ac6e0ac9a4e53cdf9811dff0
+Merge: 3b97337 ac5c64d
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-22
+
+    JG (D) Merge remote-tracking branch 'origin/simple-server' into imaging
+
+commit 3b97337fb8ef2d0a2424eb1359e684b69a3b2b44
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-22
+
+    FB (T) tests sur differences d'images
+
+ 5 files changed, 53 insertions(+), 29 deletions(-)
+
+commit ac5c64d65531b8e58990364c2b05bffc5bb3e00d
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-01-21
+
+    AF R Forgot to stage the app/mongoose.ts file, on another note, this branch is ready to be reviewed and merged into the master
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 2f1ca287c148cf133c7538d9e291fae701de3530
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-01-21
+
+    AF R Server refactor and architecture finished
+
+ 17 files changed, 142 insertions(+), 222 deletions(-)
+
+commit aa356159a397c76a1e55056bc4ec11e97b8c6649
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-01-21
+
+    AF D Mongoose is injected into the application, the userDatabse injected into the the user controller. This composes more than one functionality and should be composed into multiple commits, but I've got to deal with refactoring the backend to fit the new boilerplate, so I
+    'm not in th mood
+
+ 14 files changed, 167 insertions(+), 33 deletions(-)
+
+commit fb74251e4286d589039357ceb18ed532a6df3f91
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-21
+
+    FB (D) Faire une tache noire autour d'un point
+    
+    La fonction differenceArea prend les coordonnees d'un point pour faire une tache noir comme celle pour detecter les differentes differences
+
+ 2 files changed, 66 insertions(+), 4 deletions(-)
+
+commit c39f100001858af035355ea525ec30242dfcb87a
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-21
+
+    FB (D) changer nom fonction createBitmap
+
+ 3 files changed, 17 insertions(+), 15 deletions(-)
+
+commit ab553f5475d9e53a1983d0f5958028ac9e916897
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-21
+
+    FB (D) difference image assez complete
+    
+    il faut faire plus de tests
+
+ 4 files changed, 25 insertions(+), 42 deletions(-)
+
+commit fa9858e0c0069e748bb12aad507a296de9f5be3e
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-21
+
+    FB (D) hardcode les valeur de dimension
+
+ 1 file changed, 8 insertions(+), 12 deletions(-)
+
+commit ffa7f46dcc83f47a72ea2432d9052735b0a49512
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-21
+
+    FB (D) constructeur de classe Pixel
+
+ 1 file changed, 6 insertions(+)
+
+commit cbe0f6e0f9fea01d66db41af53dcd30bb09f73c8
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-21
+
+    FB JG (D) change bitmap en classe simple
+
+ 5 files changed, 20 insertions(+), 13 deletions(-)
+
+commit 5fc3dfd98080acc1a7ad521e3df51da2fd370570
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-20
+
+    FB (R) delete d'un double que j'ai fait
+
+ 1 file changed, 12 deletions(-)
+
+commit 09218a828268ca3e965bc11a93fb69c8a6b3f64f
+Author: felix <felix.bonin@polymtl.ca>
+Date:   2019-01-20
+
+    FB (R) revision sur les bitmaps
+
+ 5 files changed, 48 insertions(+), 32 deletions(-)
+
+commit 2298310038b3364e760f222cb1b751e5e2a6a337
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-20
+
+    JG (D) : Essaie appliquer filtre sur importbmp
+
+ 10 files changed, 90 insertions(+), 79 deletions(-)
+
+commit e2139f7756e7ce27494a46af97e18c212c131d24
+Author: Felix <felix.bonin@polymtl.ca>
+Date:   2019-01-19
+
+    FB (B) Changement pour test de bitmap pour faire passer les deux tests
+
+ 2 files changed, 21 insertions(+), 19 deletions(-)
+
+commit d3b401bd6a396a17688679b8283f373ab5df9e8b
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-19
+
+    JG (T) : developpement de tests
+
+ 8 files changed, 72 insertions(+), 49 deletions(-)
+
+commit a620365008966ff0113f7e83adfcfb0e7c90c38d
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-01-18
+
+    AF D User controller functionality functional and tested
+
+ 5 files changed, 40 insertions(+), 7 deletions(-)
+
+commit e6b1d225ff0e3e037e8f9d5b9d1e06274cb24c22
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-18
+
+    JG (D) : cleaning des dossiers
+    
+    Changement du imaging de client a serveur
+
+ 19 files changed, 64 insertions(+), 153 deletions(-)
+
+commit dc7769f9d0f3dda8bd214c0ee7415e3f066dfe22
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-18
+
+    JG (D) : lecture fichier marche
+
+ 2 files changed, 1 insertion(+), 2 deletions(-)
+
+commit 9873d94e54e48aa397f31ed58ab647569e8ca3e5
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-01-18
+
+    AF D User Controller functional and tested
+
+ 4 files changed, 80 insertions(+)
+
+commit a398861078ae43724b06b5b27c3a1ed8e76ebdcb
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-18
+
+    JG (D) Essaie import bmp suite
+
+ 5 files changed, 14 insertions(+), 39 deletions(-)
+
+commit 8531eccbfc40ee17bc47c6b0393e0276074442e3
+Merge: c451ec7 6726efe
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-18
+
+    Merge remote-tracking branch 'origin/imaging' into imaging
+
+commit ab4a6012df71b5cf25503bc94d7ddbf5c2df9862
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-01-18
+
+    AF D Initial User routes created
+
+ 7 files changed, 31 insertions(+), 5780 deletions(-)
+
+commit 6726efe277da0a7e497eb26f7bf37a91132cd0c2
+Author: Felix <felix.bonin@polymtl.ca>
+Date:   2019-01-18
+
+    FB (D) Generation d'image de difference avec foreach
+
+ 2 files changed, 12 insertions(+), 14 deletions(-)
+
+commit c451ec7e58cc756cdd4952d3b6d6da4bbbd318e9
+Merge: d3f5597 4329385
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-18
+
+    Merge remote-tracking branch 'origin/imaging' into imaging
+
+commit 432938541d7d13fe4dd83f8344f76d69d558cf5f
+Author: Felix <felix.bonin@polymtl.ca>
+Date:   2019-01-18
+
+    FB (D) Image de difference lance une erreur lorsque les grandeurs sont differentes
+
+ 2 files changed, 21 insertions(+), 1 deletion(-)
+
+commit d3f5597571d4aff8519268f93bc2c6fc575fde2b
+Merge: 44e8a3a b12764a
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-18
+
+    Merge remote-tracking branch 'origin/imaging' into imaging
+
+commit 44e8a3aee6cb5afd20eb85e2241060b97c69af0a
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-18
+
+    JG(D)
+    
+    import image
+
+ 4 files changed, 40 insertions(+)
+
+commit b12764a9f4e27a77c1c957d9f28aacf7e77a490e
+Author: Felix <felix.bonin@polymtl.ca>
+Date:   2019-01-18
+
+    FB (D) generation d'image de difference
+
+ 3 files changed, 32 insertions(+)
+
+commit bf26e7c1440c9ae96ac8675d9f2b88e93f652ee6
+Author: Felix <felix.bonin@polymtl.ca>
+Date:   2019-01-18
+
+    FB (D) Changements au constructeur de bitmap
+
+ 1 file changed, 4 insertions(+), 7 deletions(-)
+
+commit d802cf7fcf74ceab2700fd78b4ae13911e8eb3bd
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-01-17
+
+    LL (T): Added tests for username validation
+
+ 1 file changed, 39 insertions(+), 13 deletions(-)
+
+commit 898e176f7bcf8da609c63ab0b3a08c81220001de
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-01-17
+
+    LL CB (B): Insured all baseline tests passed
+
+ 2 files changed, 18 insertions(+), 10 deletions(-)
+
+commit 348e62f53a23fbb573d8e222a19040039c549338
+Author: Jennifer Girard <jenn-suki@hotmail.com>
+Date:   2019-01-17
+
+    JG FB (D) Redisposition des elements
+
+ 8 files changed, 28 insertions(+), 7 deletions(-)
+
+commit 53f766151ad8e3707450aa131e2cddebf8cf6678
+Author: Felix <felix.bonin@polymtl.ca>
+Date:   2019-01-17
+
+    FB JG (D) Creation de bitmap blanc
+
+ 4 files changed, 25 insertions(+), 22 deletions(-)
+
+commit bd43dfda10a969caf8967d08f1d9b431459a8265
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-01-17
+
+    AF D Added mongoose as a dependency
+
+ 1 file changed, 1 insertion(+)
+
+commit 5853d0b37b1ffb82c117425cf0e8353a1dc6907b
+Author: Felix <felix.bonin@polymtl.ca>
+Date:   2019-01-17
+
+    FB JG (D) Debut des bitmaps
+
+ 5 files changed, 64 insertions(+), 9 deletions(-)
+
+commit d402b5529782f02e3f9a6e2a2cf6600b38951557
+Author: Felix <felix.bonin@polymtl.ca>
+Date:   2019-01-17
+
+    FB JG (D): Ajout du service et component imaging
+
+ 7 files changed, 67 insertions(+), 1 deletion(-)
+
+commit eb047e87ddb1afd8b1c020a5e7d03f5552e7647a
+Merge: 0c1b79d eed69cb
+Author: Unknown <jenn-suki@hotmail.com>
+Date:   2019-01-17
+
+    Merge branch 'master' into imaging
+
+commit 4db7507acfa4714091f16c5b0659b954a950a40b
+Author: Camille Bourbonnais <camille.bourbonnais@gmail.com>
+Date:   2019-01-16
+
+    LL CB (D): Registration view prototype
+
+ 4 files changed, 33 insertions(+), 5 deletions(-)
+
+commit 29f47fac3d6d53389195dbcd9865f58508b46ee7
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-01-16
+
+    LL CB (B): Fixed TS errors caused by unused resources and renamed innappriopriately named registrationComponentComponent
+
+ 11 files changed, 56 insertions(+), 52 deletions(-)
+
+commit f25277031b62df1624690e5dd8afc89cdbbdb8a0
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-01-16
+
+    LL CB (B): Somewhat scaling css for headers
+
+ 2 files changed, 15 insertions(+), 6 deletions(-)
+
+commit 43c4b572bd57aaff93e78d6f9432b11f14303132
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-01-15
+
+    LL CB (D): Generation of routing and registration components
+
+ 6 files changed, 56 insertions(+), 2 deletions(-)
+
+commit f5207b99a0ef81c1aed52a4959648d8522fe6faf
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-01-15
+
+    LL CB (D): Initial styling of app skeleton
+
+ 4 files changed, 42 insertions(+), 26 deletions(-)
+
+commit eed69cb66d3aeda74451c07cd025257baa6178d3
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-01-16
+
+    LL CB (D): Added mocha to project dependencies
+
+ 2 files changed, 85 insertions(+), 25 deletions(-)
+
+commit 0c1b79d157453db668be4a5f534619eb642490cc
+Author: Loic LeBlanc <loicleblancprofessionnel@gmail.com>
+Date:   2019-01-15
+
+    LL: Update packages
+
+ 2 files changed, 274 insertions(+), 242 deletions(-)
+
+commit 52a9b4d20a6c511d4b3010ea433fa0f48085ee57
+Author: Alexandre <alexandre.h.falardeau@gmail.com>
+Date:   2019-01-14
+
+    first commit
+
+ 48 files changed, 19086 insertions(+)
+
+commit 1b2a6fdc629acea28d1672e5941d0912728eeb7f
+Author: admin <gigl-technique@polymtl.ca>
+Date:   2012-09-11
+
+    Commit administratif
+
+ 1 file changed, 1 insertion(+)
+
+commit 70996bca0add50159f527a3495c0e19d965081c1
+Author: Luc Lalonde <Luc.Lalonde@polymtl.ca>
+Date:   2012-09-11
+
+    Premier commit
+
+ 1 file changed, 1 insertion(+)

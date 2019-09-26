@@ -1,0 +1,74 @@
+<div *ngIf="!showThumbnail" >
+    <form class="Vue-libre_container" [formGroup]="freeViewModalForm">
+            <span align = "right" mat-button (click)="onNoClick()" class="close">&times;</span>
+
+        <h2>Créer un jeu de point de Vue Libre</h2>
+
+        <mat-form-field>
+            <input matInput #input maxlength="15" placeholder="Nom du jeu" formControlName="gameName" >
+            <mat-hint align="end">{{input.value?.length || 0}}/15</mat-hint>
+            <mat-error >
+                {{getErrorMessage("gameName", "required", "Vous devez remplir ce champ")}}
+                {{getErrorMessage("gameName", "checkName", this.userService.getOutputServiceText())}}
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-select placeholder="Types d'objets" formControlName="objectType">
+                <mat-option value="Géométrique">Géométrique</mat-option>
+                <mat-option value="Thème">Thème</mat-option>
+            </mat-select>
+            <mat-error >
+                {{getErrorMessage("objectType", "required", "Vous devez remplir ce champ")}}
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field hintLabel="Minimum 10 éléments, Maximum 200 éléments">
+            <input matInput placeholder="Quantité d'objets"  formControlName="objectQuantity">
+            <mat-error >
+                {{getErrorMessage("objectQuantity", "min", "Doit avoir plus de 10 différences.")}}
+                {{getErrorMessage("objectQuantity", "max", "Doit avoir moin de 200 différences.")}}
+                {{getErrorMessage("objectQuantity", "checkNumber", "Doit être un nombre")}}
+                {{getErrorMessage("objectQuantity", "required", "Vous devez remplir ce champ")}}
+            </mat-error>
+        </mat-form-field>
+
+        <section>
+            <label  class="control-label">Type de modifications</label>
+            <div class="Vue-libre_container">
+                <div formArrayName= "myitems" >
+                    <div *ngFor="let control of freeViewModalForm.controls.myitems?.controls; 
+                    let i = index;" [formGroup]="control">
+                        <mat-checkbox formControlName="checkbox" id="{{ control.controls.id.value }}">
+                            {{ control.controls.text.value }}
+                        </mat-checkbox> 
+                    </div>
+                </div>
+                <mat-error>
+                        {{getErrorCheckbox("required", "Vous devez remplir ce champ")}}
+                </mat-error>
+            </div>
+
+        </section>
+
+        <div class="button-alignment">
+            <button mat-raised-button (click) = "submit()">Soumettre</button>
+            <button mat-raised-button (click) = "onNoClick()">Annuler</button>
+
+        </div>
+    </form>
+</div>
+
+<div *ngIf="showThumbnail" class = "Vue-libre_container modal_tumbnail">
+    <app-loading-page *ngIf = "loading"></app-loading-page>
+    <div>
+        Aperçu de {{nameInput}}
+    </div>
+
+    <div #containerOriginal class = "render"></div>
+
+    <div class="button-alignment">
+        <button mat-raised-button (click) = "keepGame()">Valider</button>
+        <button mat-raised-button (click) = "dropGame(); onNoClick()">Annuler</button>
+    </div>
+</div>

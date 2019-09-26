@@ -1,0 +1,365 @@
+@import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
+
+.exit-container {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: auto;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        z-index: 11;
+}
+
+.exit-container:hover .leftright {
+        transform: rotate(-45deg);
+        background-color: #F25C66;
+}
+
+.exit-container:hover .exit {
+        visibility: visible;
+}
+
+.exit-container:hover .rightleft {
+        transform: rotate(45deg);
+        background-color: #F25C66;
+}
+
+.exit-container:hover label {
+        opacity: 1;
+}
+
+.exit {
+        margin: 60px 0 0 5px;
+        visibility: hidden;
+        position: absolute;
+        color: white;
+        left: -12px;
+}
+      
+.leftright {
+        height: 4px;
+        width: 50px;
+        position: absolute;
+        margin-top: 24px;
+        background-color: #F4A259;
+        border-radius: 2px;
+        transform: rotate(45deg);
+        transition: all .3s ease-in;
+}
+      
+.rightleft {
+        height: 4px;
+        width: 50px;
+        position: absolute;
+        margin-top: 24px;
+        background-color: #F4A259;
+        border-radius: 2px;
+        transform: rotate(-45deg);
+        transition: all .3s ease-in;
+}
+
+
+body{
+    background: url("https://mashtrelo.com/wp-content/uploads/2017/11/just-background-image.jpg");
+    width: 100%;
+    height: 100%;
+    position: absolute; top: 0; left: 0;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction : column;
+    align-content: center;
+}
+
+.connecting {
+  position: absolute;
+  width: 50%;
+  height: 30%;
+  z-index: 10;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin: auto;
+  padding: 20px; 
+}
+
+.connecting-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+}
+.connecting-text span {
+  display: inline-block;
+  margin: 0 5px;
+  color: white;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+.connecting-text span:nth-child(1) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 3.1s 0s infinite linear alternate;
+          animation: blur-text 3.1s 0s infinite linear alternate;
+}
+.connecting-text span:nth-child(2) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 3.1s 0s infinite linear alternate;
+          animation: blur-text 3.1s 0s infinite linear alternate;
+}
+.connecting-text span:nth-child(3) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 3.1s 0.2s infinite linear alternate;
+          animation: blur-text 3.1s 0.2s infinite linear alternate;
+}
+.connecting-text span:nth-child(4) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 3.1s 0.2s infinite linear alternate;
+          animation: blur-text 3.1s 0.2s infinite linear alternate;
+}
+.connecting-text span:nth-child(5) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 3.1s 0.4s infinite linear alternate;
+          animation: blur-text 3.1s 0.4s infinite linear alternate;
+}
+.connecting-text span:nth-child(6) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 3.1s 0.6s infinite linear alternate;
+          animation: blur-text 3.1s 0.6s infinite linear alternate;
+}
+.connecting-text span:nth-child(7) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 3.1s 0.6s infinite linear alternate;
+          animation: blur-text 3.1s 0.6s infinite linear alternate;
+}
+.connecting-text span:nth-child(8) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 0.8s infinite linear alternate;
+        animation: blur-text 3.1s 0.8s infinite linear alternate;
+}
+
+.connecting-text span:nth-child(9) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 0.8s infinite linear alternate;
+        animation: blur-text 3.1s 0.8s infinite linear alternate;
+}
+
+.connecting-text span:nth-child(10) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 1.0s infinite linear alternate;
+        animation: blur-text 3.1s 1.0s infinite linear alternate;
+}
+
+.connecting-text span:nth-child(11) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 1.0s infinite linear alternate;
+        animation: blur-text 3.1s 1.0s infinite linear alternate;
+}
+.connecting-text span:nth-child(12) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 1.2s infinite linear alternate;
+        animation: blur-text 3.1s 1.2s infinite linear alternate;
+}
+
+.connecting-text span:nth-child(13) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 1.2s infinite linear alternate;
+        animation: blur-text 3.1s 1.2s infinite linear alternate;
+}
+
+.connecting-text span:nth-child(14) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 1.4s infinite linear alternate;
+        animation: blur-text 3.1s 1.4s infinite linear alternate;
+}
+.connecting-text span:nth-child(15) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 1.4s infinite linear alternate;
+        animation: blur-text 3.1s 1.4s infinite linear alternate;
+}
+
+.connecting-text span:nth-child(16) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 1.6s infinite linear alternate;
+        animation: blur-text 3.1s 1.6s infinite linear alternate;
+}
+
+.connecting-text span:nth-child(17) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 1.6s infinite linear alternate;
+        animation: blur-text 3.1s 1.6s infinite linear alternate;
+}
+
+.connecting-text span:nth-child(18) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 1.8s infinite linear alternate;
+        animation: blur-text 3.1s 1.8s infinite linear alternate;
+}
+.connecting-text span:nth-child(19) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 2.0s infinite linear alternate;
+        animation: blur-text 3.1s 2.0s infinite linear alternate;
+}
+.connecting-text span:nth-child(20) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 2.2s infinite linear alternate;
+        animation: blur-text 3.1s 2.2s infinite linear alternate;
+}
+.connecting-text span:nth-child(21) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 2.4s infinite linear alternate;
+        animation: blur-text 3.1s 2.4s infinite linear alternate;
+}
+.connecting-text span:nth-child(22) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 2.4s infinite linear alternate;
+        animation: blur-text 3.1s 2.4s infinite linear alternate;
+}
+.connecting-text span:nth-child(21.5) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 1.6s infinite linear alternate;
+        animation: blur-text 3.1s 1.6s infinite linear alternate;
+}
+
+.connecting-text span:nth-child(23) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 2.6s infinite linear alternate;
+        animation: blur-text 3.1s 2.6s infinite linear alternate;
+}
+
+.connecting-text span:nth-child(24) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 2.8s infinite linear alternate;
+        animation: blur-text 3.1s 2.8s infinite linear alternate;
+}
+
+.connecting-text span:nth-child(25) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 2.8s infinite linear alternate;
+        animation: blur-text 3.1s 2.8s infinite linear alternate;
+}
+.connecting-text span:nth-child(26) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 2.9s infinite linear alternate;
+        animation: blur-text 3.1s 2.9s infinite linear alternate;
+}
+.connecting-text span:nth-child(27) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 2.9s infinite linear alternate;
+        animation: blur-text 3.1s 2.9s infinite linear alternate;
+}
+.connecting-text span:nth-child(28) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 3.0s infinite linear alternate;
+        animation: blur-text 3.1s 3.0s infinite linear alternate;
+}
+.connecting-text span:nth-child(29) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 3.0s infinite linear alternate;
+        animation: blur-text 3.1s 3.0s infinite linear alternate;
+}
+.connecting-text span:nth-child(30) {
+-webkit-filter: blur(0px);
+        filter: blur(0px);
+-webkit-animation: blur-text 3.1s 3.1s infinite linear alternate;
+        animation: blur-text 3.1s 3.1s infinite linear alternate;
+}
+
+
+@-webkit-keyframes blur-text {
+  0% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+  100% {
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+  }
+}
+
+@keyframes blur-text {
+  0% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+  100% {
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+  }
+}
+
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    height: 155px;
+    border: black solid 2px;
+    position: relative;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.highscore{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 2px black solid;
+}
+
+.typeGame{
+    align-self: center;
+    font-size: 20px;
+    padding-left: 36px;
+    padding-right: 38px;
+    border-bottom: 2px solid black;
+}
+
+:host-context(.right) .top{
+    background: black;
+}
+.score{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+.player{
+    align-self: left;
+}
+.time{
+    position: absolute;
+    padding-left: 83px;
+}

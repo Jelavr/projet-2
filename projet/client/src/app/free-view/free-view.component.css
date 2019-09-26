@@ -1,0 +1,47 @@
+.render { 
+    align-self: center;
+    width: 100%;
+    height: 100%;
+}
+
+.column {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+    min-width: 650px;
+    max-height: 350px;
+    min-height: 350px;
+}
+
+#images{
+    text-align:center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    max-height: 332px;
+    min-height: 332px;
+    justify-content: center;
+}
+
+.msg{
+    width: 250px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    height: auto;
+    overflow-y: auto;
+}
+
+.nodisp{
+    display: none;
+}
+
+.disp{
+    display: initial;
+}
+
+.cheat{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}

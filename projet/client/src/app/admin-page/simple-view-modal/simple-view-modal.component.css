@@ -1,0 +1,13 @@
+.simple_view_container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .simple_view_container > * {
+    width: 100%;
+  }
+
+  .button-alignment,
+.button-alignment a {
+  margin-right: 8px;
+}

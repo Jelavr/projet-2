@@ -1,0 +1,38 @@
+<div id="bg">
+    <img src="https://wi-images.condecdn.net/image/B1NZW376pxM/crop/1620/f/space_11.jpg" alt="">
+  </div>
+<div class="exit-container" (click) = "exit()">
+        <div class="leftright"></div>
+        <div class="rightleft"></div>
+        <label class="exit">Annuler</label>
+</div>
+<div class = "page">
+    <h1 class = "name"> {{gameName}}</h1>
+
+    <app-timer></app-timer>
+
+    <ng-content></ng-content>
+
+    <div id = "diffcounter" *ngIf = "start && gameName != '...'">
+        <h1 style="color: white;">Différences trouvées</h1>
+        <div class = "multiDiffCounter">
+            <div>
+                <div *ngIf = "isMulti">Vous</div>
+                <div>{{diffcounter}} / {{maxDiff}}</div>
+            </div>
+            <div *ngIf = "isMulti">
+                <div>{{opponent}}</div>
+                <div>{{opponentDiffcounter}} / {{maxDiff}}</div>
+            </div>
+
+        </div>
+        
+    </div>
+    
+    <button id = "ready" *ngIf = "ready && gameName != '...'" (click) = "countdown()">PRÊT</button>
+    <div id = "waitText" *ngIf = "!ready && isMulti && !start">En attente de l'autre joueur...</div>
+    <h1 id = "timercountdown" *ngIf = "showcountdown">{{timecountdown}}</h1>    
+</div>
+<div #error class = "error">ERREUR</div>
+
+<app-loading-page *ngIf = "loading"></app-loading-page>
